@@ -6,11 +6,11 @@ bigimg:
 tags: [Social Media, politics]
 ---
 
-##Introduction
+## Introduction
 
 This data was pulled from a Buzzfeed article on fact checking Facebook pages. The original article can be found at: [link]. The data has been published and is available on github at: [link]. The original article was posted on October 20th, 2016. The data was orriginally collected to look at the truthfulness, in this article the overall engagement versus page type will be considered most.
 
-##Cleaning the Data
+## Cleaning the Data
 First the data is loaded into a dataframe and the head is examined.
 ```
 url='https://raw.githubusercontent.com/BuzzFeedNews/2016-10-facebook-fact-check/master/data/facebook-fact-check.csv'
