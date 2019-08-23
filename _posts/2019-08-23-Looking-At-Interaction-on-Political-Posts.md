@@ -8,7 +8,7 @@ comments: true
 
 ### Introduction
 
-This data was pulled from a Buzzfeed article on fact checking Facebook pages. The original article can be found at: https://www.buzzfeednews.com/article/craigsilverman/partisan-fb-pages-analysis#.ia1QB2KJl. The data has been published and is available on github at: https://github.com/BuzzFeedNews/2016-10-facebook-fact-check/blob/master/data/facebook-fact-check.csv. The original article was posted on October 20th, 2016. The data was orriginally collected to look at the truthfulness, in this article the overall engagement versus page type will be considered most.
+This data was pulled from a Buzzfeed article on fact checking Facebook pages. The original article can be found [here] (https://www.buzzfeednews.com/article/craigsilverman/partisan-fb-pages-analysis#.ia1QB2KJl). The data has been published and is available on [github](https://github.com/BuzzFeedNews/2016-10-facebook-fact-check/blob/master/data/facebook-fact-check.csv). The original article was posted on October 20th, 2016. The data was orriginally collected to look at the truthfulness, in this article the overall engagement versus page type will be considered most.
 
 ### Cleaning
 
