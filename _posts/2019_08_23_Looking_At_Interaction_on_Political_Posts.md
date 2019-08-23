@@ -1,3 +1,10 @@
+---
+layout: post
+title: Looking At Interaction on Political Posts
+subtitle: Data storytelling project by Eyve Geordan
+tags: [Social Media, Politics]
+comments: true
+---
 
 ### Introduction
 
