@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: A look at interaction on various pages
+subtitle: Data Storytelling Project by Eyve Geordan
 bigimg: /img/path.jpg
 tags: [books, test]
 ---
