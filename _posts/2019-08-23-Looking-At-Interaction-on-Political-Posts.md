@@ -326,7 +326,7 @@ plt.show()
 ```
 
 
-![png](hello_world.jpeg)
+![jpeg](hello_world.jpeg)
 
 
 The graph shows that the left leaning pages get far more interaction than the others, with the right leaning pages coming in second. Interesting to note is that the comments on the mainstream pages and right leaning pages while all other interactions are higher on the right leaning pages. This sugests that people interacting with these pages are more willing to put the effort into stating ther opinions. The error bars primarily reveal the spread of the data more than anything, Occupy Democrats had far more extreme articles that were able to reach a very large audience and get tons of interactions, which introduced extra error for that page. 
