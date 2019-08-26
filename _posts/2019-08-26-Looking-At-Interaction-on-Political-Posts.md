@@ -197,7 +197,7 @@ reactionMargin=[CI(pagesDF[i]['reaction_count']) for i in range(9)]
 shareMargin=[CI(pagesDF[i]['share_count']) for i in range(9)]
 ```
 
-## Graphing the Data
+### Graphing the Data
 
 The data is placed into a graph with the y-axis scaled logarithmically. 
 
