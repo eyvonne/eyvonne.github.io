@@ -1,3 +1,11 @@
+---
+layout: post
+title: Looking at Interactions on Political Posts
+subtitle: A look at Comment count versus Reactions
+tags: [Facebook, Politics, Social Media]
+comments: true
+---
+
 
 ### Abstract
 
