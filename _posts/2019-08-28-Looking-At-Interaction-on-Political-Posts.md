@@ -257,7 +257,7 @@ plt.show()
 ```
 
 
-![png](2019_08_28_Looking_At_Interaction_on_Political_Posts_files/2019_08_28_Looking_At_Interaction_on_Political_Posts_18_0.png)
+![png](https://raw.githubusercontent.com/eyvonne/eyvonne.github.io/master/img/2019_08_28_Looking_At_Interaction_on_Political_Posts_files/2019_08_28_Looking_At_Interaction_on_Political_Posts_18_0.png)
 
 
 The graph shows that the left leaning pages get far more interaction than the others, with the right leaning pages coming in second. This disparity came from those pages have dramatically more subscribers than the others. Interesting to note is that the comments on the mainstream pages and right leaning pages while all other interactions are higher on the right leaning pages. This suggests that people interacting with these pages are more willing to put the effort into stating their opinions. The error bars primarily reveal the spread of the data more than anything, Occupy Democrats had far more extreme articles that were able to reach a very large audience and get tons of interactions, which introduced extra error for that page. 
