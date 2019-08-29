@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Looking at Interactions on Political Posts
-subtitle: A look at Comment count versus Shares on Facebook
+title: Mainstream Articles Inspire Comments
+subtitle: Data Analysis of Comments versus Shares on Facebook
 tags: [Facebook, Politics, Social Media]
 comments: true
 ---
