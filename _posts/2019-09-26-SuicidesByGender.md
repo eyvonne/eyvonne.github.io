@@ -1,3 +1,11 @@
+---
+layout: post
+title: Worldwide Suicides by Gender
+subtitle: Modeling the Relatinoship Between the Human Development Index and Suicides
+tags: [Facebook, Politics, Social Media]
+comments: true
+---
+
 <div class="WordSection1">
 
 Worldwide Suicides by Gender
