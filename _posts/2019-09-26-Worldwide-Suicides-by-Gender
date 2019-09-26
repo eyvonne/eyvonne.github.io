@@ -945,8 +945,8 @@ country demographic<!--[if gte vml 1]><v:shape id="_x0000_s1031" type="#_x0000_t
  <v:stroke miterlimit="4"/>
  <v:imagedata src="https://raw.githubusercontent.com/eyvonne/eyvonne.github.io/master/img/SuicidesByCountry/SuicidesByGender.fld/image003.png" o:title=""/>
  <w:wrap type="square" anchorx="margin" anchory="line"/>
-</v:shape><![endif]--><![if !vml]><img width=180 height=126
-src="https://raw.githubusercontent.com/eyvonne/eyvonne.github.io/master/img/SuicidesByCountry/SuicidesByGender.fld/image004.jpg" align=left hspace=16 vspace=16 v:shapes="_x0000_s1031"><![endif]>
+</v:shape><![endif]--><![if !vml]><div align='right'><img width=180 height=126
+src="https://raw.githubusercontent.com/eyvonne/eyvonne.github.io/master/img/SuicidesByCountry/SuicidesByGender.fld/image004.jpg" align=left hspace=16 vspace=16 v:shapes="_x0000_s1031"></div><![endif]>
 information to attempt to predict the number of suicides for men and women.
 This data does not take queering of gender into account, which has a high
 impact on suicide rates worldwide. Global trends are difficult to track, some
