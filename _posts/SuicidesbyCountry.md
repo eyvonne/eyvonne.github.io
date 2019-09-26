@@ -109,5 +109,3 @@ This plot shows that as the Human development index goes up, on average so does 
 </tbody>
 
 </table>
-
-The website [OvulationCalculators](https://www.ovulation-calculators.com/pregnancy-test/) helps thousands of women find out if they are pregnant or not, by simply asking a few basic questions regarding the usual symptoms of pregnancy.
