@@ -1,4 +1,10 @@
-# Setting up a Jupyter Lab Server for Remote Access, For Data Scientists 
+---
+layout: post
+title: Setting up a Jupyter Lab Server for Remote Access via SSH
+subtitle: Easy Home Setup for Data Scientists
+tags: [JupyterLab, SSH, devops]
+comments: true
+---
 
 There are a variety of reasons to set up a server for remote access running Jupyter lab, personally I have an older low powered laptop and want to be able to access the power of my desktop computer while I’m on the road. Setting up a server is much more of a devops task than data science, and involves a lot of research to set up the appropriate security. This guide is designed based on a Mac Mini as the host server and a MacBook Air on the client side. The command line portions of these instructions should also work on linux, however they may be more complicated than needed because of MacOS's additional security. 
 
