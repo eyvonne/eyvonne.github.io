@@ -26,7 +26,7 @@ Security is an ever-changing landscape and a written article cannot keep up. Ena
 On macOS when you enable SSH access you will also be asked who can access it. I don’t use a hyper-secure password for my main admin account locally so I opted to create a separate user account that is only accessed via SSH. This account should use a password that is generated using Keychain (or another password manager). The only downside to this method is that you won’t have access to your data from the main account. It is possible to give the second account access to all this data but doing so defeats the purpose of creating an isolated account. 
 To create a new account open System Preferences, and click ‘Users and Groups
 
-![Stystem Preferences](Images/KISIEE.png)
+![Stystem Preferences](img/2020-1-20-JupyterLab-SSH/KISIEE.png)
 
 Click the lock icon and enter your user password
 
