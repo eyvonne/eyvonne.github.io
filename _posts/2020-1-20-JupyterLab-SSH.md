@@ -36,19 +36,19 @@ To create a new account open System Preferences, and click ‘Users and Groups
 
 Click the lock icon and enter your user password
 
-![Users & Groups](Images/Users&Groups.jpeg)
+![Users & Groups](../img/2020-1-20-JupyterLab-SSH/Users&Groups.jpeg)
 
-![Password Dialogue](Images/SystemPreferencesistryingtounlockUsers.jpeg)
+![Password Dialogue](../img/2020-1-20-JupyterLab-SSH/SystemPreferencesistryingtounlockUsers.jpeg)
 
 Click the plus icon to add an account
 
-![Users & Groups +](Images/Users&Groups.png)
+![Users & Groups +](../img/2020-1-20-JupyterLab-SSH/Users&Groups.png)
 
 By default, the new account is set up as a standard user. For security, it is best to leave this setting so that if a malicious entity gains access to your system they won’t have administrator access. Enter a name for the account (I chose remote) and then click the key icon to generate a secure password. 
 
-![Add User](Images/NewAccountStandard.jpeg)
+![Add User](../img/2020-1-20-JupyterLab-SSH/NewAccountStandard.jpeg)
 
-![Password Assistant](Images/PasswordAssistant.jpeg)
+![Password Assistant](../img/2020-1-20-JupyterLab-SSH/PasswordAssistant.jpeg)
 
 Letters and numbers or random should both create a strong password, personally, I also cranked the length up to about 20 as well just for the additional protection. Brute force is a common attack on an SSH server, so you want a strong password. Even though we will be disabling password access the additional security is recommended for access during setup. Save this password in your secure method of choice. 
 
@@ -66,15 +66,15 @@ It is possible to go further and also hide the user account folder but I decided
 ### Allowing SSH Access and Remote Connecting
 To allow an SSH connection on the host computer open system preferences and click sharing
 
-![System Preferences Sharing](Images/KISTES.jpeg)
+![System Preferences Sharing](../img/2020-1-20-JupyterLab-SSH/KISTES.jpeg)
 
 Check the box labeled ‘Remote Login’
 
-![Sharing](Images/EEEE.jpeg)
+![Sharing](../img/2020-1-20-JupyterLab-SSH/EEEE.jpeg)
 
 Make sure the radio button for ‘Only these users’ is selected, then click the minus button to remove the group ‘Administrators’ followed by the plus button to add your remote user. 
 
-![Add Remote](Images/EEEE+-.jpeg)
+![Add Remote](../img/2020-1-20-JupyterLab-SSH/EEEE+-.jpeg)
 
 You can now access this computer via SSH on your local network, from your client open terminal and type:
 
@@ -106,11 +106,11 @@ To edit the plist enter the following command in terminal (I like nano, but you 
 
 Again enter your administrator password when prompted. In the plist you are looking for the following lines:
 
-![Key Sockets](Images/keySocketskey.png)
+![Key Sockets](../img/2020-1-20-JupyterLab-SSH/keySocketskey.png)
 
 Replace both ‘ssh’ and ‘sftp-ssh’ with the number of the port you want to use, for example if you want to set it to use port 2222 you would set it to read: 
 
-![Changed Sockets](Images/keySocketskey2222.png)
+![Changed Sockets](../img/2020-1-20-JupyterLab-SSH/keySocketskey2222.png)
 
 
 Exit the nano editor using control + x (yes control on Mac). You will be prompted asking if you want to save changes, enter y for yes. You will then be prompted to enter a name for the file, just hit enter to leave the name unchanged. At this point, I recommend restarting your computer and re-enabling SIP by reversing the steps from before. 
@@ -139,7 +139,7 @@ To complete the setup of the key only access we need to disable password access.
 
 Enter your password if prompted. This will open one of the configuration files for SSH. Find the line labeled ‘PasswordAuthentication’. Remove the # from the beginning of the line, and change the yes to no. It should look like this when done: 
 
-![Passwords Disabled](Images/ForwardAgentno.png)
+![Passwords Disabled](../img/2020-1-20-JupyterLab-SSH/ForwardAgentno.png)
 
 This is a little tricky to test that it's working properly, I happen to have a spare standard user account on my host computer that I used to test. The best option would be to attempt to ssh in from another computer. You should be greeted with a message that the host has disallowed password access and the connection be terminated. 
 
